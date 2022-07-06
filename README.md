@@ -3,7 +3,7 @@
 ## Contents
 - [Setup](#setup)
 - [Craft CMS](#craft-cms)
-- [Front-End Patterns](#fron-end-patterns)
+- [Front-End Patterns](#front-end-patterns)
 - [Accessibility](#accessibility)
 - [Animations](#animations)
 
