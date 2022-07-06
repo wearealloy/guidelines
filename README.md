@@ -1,13 +1,16 @@
-# Black Magic Development Guidelines
+# Black Magic<br> Development Guidelines 🔮 
 
 ## Contents
-- [Setup](#setup)
+- [Guides & Processes](#guides--processes)
 - [Craft CMS](#craft-cms)
 - [Front-End Patterns](#front-end-patterns)
 - [Accessibility](#accessibility)
 - [Animations](#animations)
 
-## Setup 
+## Guides & Processes 
+- [Getting Started](/GUIDES/local.md)
+- [Start a Craft CMS 4 project from scratch](/GUIDES/craft-from-scratch.md)
+- [Start a Craft CMS 4 project from git pull](/GUIDES/craft-from-git.md)
 
 ## Craft CMS
 
