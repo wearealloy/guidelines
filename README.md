@@ -6,7 +6,7 @@
   - [Guides & Processes](#guides--processes)
   - [Craft CMS](#craft-cms)
   - [Front-End Patterns](#front-end-patterns)
-  - [Accessibilty](#accessibilty)
+  - [Accessibility](#accessibility)
   - [Animations](#animations)
 
 ## Guides & Processes 
@@ -19,6 +19,6 @@
 
 ## Front-End Patterns
 
-## Accessibilty
+## Accessibility
 
 ## Animations
