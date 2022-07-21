@@ -1,7 +1,7 @@
 # Black Magic<br> Development Guidelines 🔮 
 
 ## Contents
-- [Guides & Processes](#guides--processes)
+- [Guides & Processes](CONTENTS/production-deployment-checklist.md)
 - [Craft CMS](#craft-cms)
 - [Front-End Patterns](#front-end-patterns)
 - [Accessibility](#accessibility)
