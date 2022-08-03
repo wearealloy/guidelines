@@ -34,3 +34,5 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
  - ***CMS Training:*** It is the final stretch when the client is taught to use the CMS.
  - ***Deliver Credentials:*** ???
  - ***Sign-off Document:*** It is practically the contract that the client is made to sign.
+
+[Return](../README.md)

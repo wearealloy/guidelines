@@ -1,1 +1,3 @@
-# Start animations documentation here
+In Black Magic we do animations from another planet, we work with [Gsap](https://github.com/greensock/GSAP), [LottieFiles](https://lottiefiles.com/), [Three.js](https://threejs.org/), [After Effects](https://www.adobe.com/mx/products/aftereffects.html), with these visual effects animations we make the web pages more dynamic and not only that we try that despite the animations the web page has a fast performance
+
+[Return](../README.md)
