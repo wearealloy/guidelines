@@ -22,3 +22,6 @@
 ## Accessibility
 
 ## Animations
+- [Getting Started](ANIMATIONS/animations.md)
+
+
