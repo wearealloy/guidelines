@@ -18,6 +18,7 @@
 ## Craft CMS
 
 ## Front-End Patterns
+- [NPM Package development](https://github.com/wearealloy/example-npm)
 
 ## Accessibility
 
