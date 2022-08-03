@@ -1,5 +1,5 @@
 ## Production Deployment Checklist
-In Black magic we are guided by a list of tasks that we carry out before launching a site to the final server
+In Black Magic we are guided by a list of tasks that we carry out before launching a site to the final server
 
  - ***Launch Schedule (Date + Time):*** Date the project will launch.
  - ***Hosting + Domain Info:***  Information that will be the domain of the client with the accesses to be able to host the site in that domain.
