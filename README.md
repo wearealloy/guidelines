@@ -18,11 +18,8 @@
 ## Craft CMS
 
 ## Front-End Patterns
-- [NPM Package development](https://github.com/wearealloy/example-npm)
 
 ## Accessibility
 
 ## Animations
-- [Getting Started](ANIMATIONS/animations.md)
-
-
+- [Good Practices Making Animations](ANIMATIONS/animations.md)
