@@ -25,11 +25,11 @@ Respecting user preferences is key for modern websites, there are users who pref
 
 ## Useful Links.
 
- - Gsap Animation Showcase. 👉🏻 Link [Here](https://greensock.com/showcase/).
- - Animations and performance. 👉🏻 Link [Here](https://web.dev/animations-and-performance/).
- - Why are some animations slow?  👉🏻 Link [Here](https://web.dev/animations-overview/).
- - Inspect and modify animations with the Chrome DevTools Animation Inspector. 👉🏻 Link [Here](https://developer.chrome.com/docs/devtools/css/animations/).
- - Web Animations API. 👉🏻 Link [Here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API#meet_the_web_animations_api).
+ - Gsap Animation Showcase. Link 👉🏻 [Here](https://greensock.com/showcase/).
+ - Animations and performance. Link 👉🏻 [Here](https://web.dev/animations-and-performance/).
+ - Why are some animations slow? Link 👉🏻 [Here](https://web.dev/animations-overview/).
+ - Inspect and modify animations with the Chrome DevTools Animation Inspector. Link 👉🏻 [Here](https://developer.chrome.com/docs/devtools/css/animations/).
+ - Web Animations API. Link 👉🏻 [Here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API#meet_the_web_animations_api).
 
 
 [Return](../README.md)
