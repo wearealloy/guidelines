@@ -2,7 +2,7 @@
 
 In Black magic we are guided by a list of tasks that we carry out before launching a site to the final server
 
-**Schedule Date | Time**
+### Schedule Date | Time 
 
  - Set and Test Environments
    
@@ -12,7 +12,7 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 
   
 
-**Client Hosting | Domain Info**
+### Client Hosting | Domain Info
 
  - Client Domain Provider
  
@@ -24,7 +24,7 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 
   
 
-**Environments**
+### Environments
 
 - Create Staging & Production Environments: Client Staging will be the test domain before release to production.
 
@@ -35,13 +35,13 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 - Think of your website as your house and by installing alarms (or SSL), you’re adding an extra layer of security to protect from hackers. This is important for SEO. The more secure your website, the higher it will rank on Google. So the more secure your house, the better.
 
   
-**Backups**
+### Backups
 
 - Craft CMS complete project backup and updated database
 
 - backupOnUpdate config file
 
-**SEO**
+### SEO
 
 - Craft CMS: SEO Plugin + Tags
 
@@ -55,7 +55,7 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 
   
   
-**Client Final Content**
+### Client Final Content
 
 - Favicon: Add the assets related to the favicon and the configuration so that it can be seen in the frontend.
 
@@ -67,7 +67,7 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 
   
 
-**API Keys:**
+### API Keys:
 
 - Image Optimization: Make sure that the images are properly optimized for the good performance of the site, that they contain descriptive alts for the user, that they are mostly in webp format, that their measurements are adequate as well as their weight.
 
@@ -79,7 +79,7 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 
   
 
-**Testing**
+### Testing
 
   
  - Google Lighthouse Testing: Testing for accessibility.
