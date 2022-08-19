@@ -2,7 +2,7 @@
 
 In Black magic we are guided by a list of tasks that we carry out before launching a site to the final server
 
-### Schedule Date | Time 
+### Schedule Date | Time 
 
  - Set and Test Environments
    
