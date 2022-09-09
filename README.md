@@ -25,4 +25,4 @@
 - [Good Practices Making Animations](ANIMATIONS/animations.md)
 
 ### Code Snippets
-- [Sidenav Menu](/SNIPPETS/sidenav-menu/README.md)
+- [Sidenav Menu](/SNIPPETS/sidenav-menu.md)
