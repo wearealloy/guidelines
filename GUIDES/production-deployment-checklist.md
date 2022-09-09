@@ -82,7 +82,7 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 ### Testing
 
   
- - Google Lighthouse Testing: Testing for accessibility.
+- Google Lighthouse Testing: Testing for accessibility.
 
 - Google Pagespeed: Link to test performance with the google tool.
 
