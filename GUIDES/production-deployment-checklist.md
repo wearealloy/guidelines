@@ -4,42 +4,45 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 
 ### Schedule Date | Time 
 
- - Set and Test Environments
+ 1. Set and Test Environments
    
- - Backups Content
+ 2. Backups Content
 
- - Launch Production
+ 3. Launch Production
 
   
 
 ### Client Hosting | Domain Info
 
- - Client Domain Provider
- 
- - Access Credentials
-
-- If Domain and Host Service are not in the same place:
-
-- DNS Records (or admin account access to generate them)
+**Client Domain Provider:**
+- Access Credentials
+- If Domain and Host Service are not in the same place: DNS Records (or admin account access to generate them)
 
   
 
 ### Environments
 
-- Create Staging & Production Environments: Client Staging will be the test domain before release to production.
+1. **Staging:** Client Staging will be the test domain before release to production. BM Staging is
 
-- Redirects: Check the old hosted site if it exists, check what would be the corresponding page on the site that will be currently hosted.
+2. **Redirects:** Check the old hosted site if it exists, check what would be the corresponding page on the site that will be currently hosted.
 
-- SSL Certificate: SSL is a type of certificate that helps to make websites more secure by ensuring that the contents of a packet of data don’t get read until it gets to its designated reader (the user).
+3. **Redirects:** Check the old hosted site if it exists, check what would be the corresponding page on the site that will be currently hosted.
 
-- Think of your website as your house and by installing alarms (or SSL), you’re adding an extra layer of security to protect from hackers. This is important for SEO. The more secure your website, the higher it will rank on Google. So the more secure your house, the better.
+### Security
+
+**SSL Certificate:** SSL is a type of certificate that helps to make websites more secure by ensuring that the contents of a packet of data don’t get read until it gets to its designated reader (the user) .
+
+Think of your website as your house and by installing alarms (or SSL), you’re adding an extra layer of security to protect from hackers. This is important for SEO. The more secure your website, the higher it will rank on Google. So the more secure your house, the better.
+
+**Sherlock Security:** Once the site is in production install Sherlock Security Plugin.
 
   
 ### Backups
 
-- Craft CMS complete project backup and updated database
+For projects with a previous live site, we require access to those files on the server to make a backup of that previous site.
 
-- backupOnUpdate config file
+Craft CMS, Wordpress, or any CMS inherited proyect. Complete site backup and latest updated database.
+
 
 ### SEO
 
@@ -63,9 +66,6 @@ In Black magic we are guided by a list of tasks that we carry out before launchi
 
 - CMS + Plugins Licenses + 3rd Party Services Subscriptions/Licenses: The licenses of the plugins in the case of being plugins pags.
 
-- Sherlock Security: Una vez el sitio esté en producción instalar Sherlock Security Plugin.
-
-  
 
 ### API Keys:
 
