@@ -1,13 +1,14 @@
-# Black Magic<br> Development Guidelines 🔮 
+# Black Magic Development Guidelines 🔮 
 
 ## Table of Contents
-- [Black Magic<br> Development Guidelines 🔮](#black-magic-development-guidelines-)
-  - [Contents](#contents)
-  - [Guides & Processes](#guides--processes)
-  - [Craft CMS](#craft-cms)
-  - [Front-End Patterns](#front-end-patterns)
-  - [Accessibility](#accessibility)
-  - [Animations](#animations)
+- [Black Magic Development Guidelines 🔮](#black-magic-development-guidelines-)
+  - [Table of Contents](#table-of-contents)
+    - [Guides & Processes](#guides--processes)
+    - [Craft CMS](#craft-cms)
+    - [Front-End Patterns](#front-end-patterns)
+    - [Accessibility](#accessibility)
+    - [Good Practices](#good-practices)
+    - [Code Snippets](#code-snippets)
 
 ### Guides & Processes 
 - [Getting Started](/GUIDES/local.md)
