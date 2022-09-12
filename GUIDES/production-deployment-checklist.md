@@ -88,4 +88,9 @@ When auditing a page, Lighthouse runs a barrage of tests against the page, and t
 10. **CMS Training:** It is the final stretch when the client is taught to use the CMS.
 11. **Sign-off Document:** It is practically the contract that the client is made to sign.
 
+### Deliver Info
+
+1.  **Deliver Credentials**
+
+
 [Return](../README.md)
