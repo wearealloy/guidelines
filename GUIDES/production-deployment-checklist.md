@@ -90,7 +90,6 @@ When auditing a page, Lighthouse runs a barrage of tests against the page, and t
 
 ### Deliver Info
 
-1.  **Deliver Credentials**
-
+1. **Deliver Credentials**.
 
 [Return](../README.md)
