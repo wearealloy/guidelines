@@ -13,12 +13,12 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
  3. For the new site, is the client moving to a new hosting or domain provider?  
  4. Gather the client’s hosting and domain credentials and save them in LastPass  .
  5. Access Credentials??? 
-      - If Domain and Host Service are not in the same place: DNS Records (or admin account access to generate them)???
+      - **1 .** If Domain and Host Service are not in the same place: DNS Records (or admin account access to generate them)???
 
 ### Environments
  
- 1. **Black Magic Staging:** Black Magic always creates a staging environment where we will do the full development and testing of the website.  
-     1. The URL to Black Magic’s staging website is usually <u>[clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)  
+ 1. **Black Magic Staging:** Black Magic always creates a staging environment where we will do the full development and testing of the website.
+    - **1 .** The URL to Black Magic’s staging website is usually <u>[clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)  
 
 2. **Client’s Staging:** The client’s staging environment will be used to test domain before release to production. 
 3. **Client’s Production** The client's Production site. ??? 
@@ -38,9 +38,9 @@ For projects with a previous live site, we require access to those files on the 
 ### SEO
 
  1. We normally use plugins from Craft CMS : 
-     **1 .** [SEOmatic Plugin](https://plugins.craftcms.com/seomatic?craft4).
-	     **2 .** [SEO Plugin](http://craft3.lexington-market.test/admin/plugin-store/seo).
-	     **3 .**   Install **SEO Plugin** and make the corresponding settings (Create an SEO field and in each section where it is necessary to place it in a tab that says SEO).
+     - **1 .** [SEOmatic Plugin](https://plugins.craftcms.com/seomatic?craft4).
+	  -   **2 .** [SEO Plugin](http://craft3.lexington-market.test/admin/plugin-store/seo).
+	  -   **3 .**   Install **SEO Plugin** and make the corresponding settings (Create an SEO field and in each section where it is necessary to place it in a tab that says SEO).
 2. **Tags**.
 3. **Schema**: Configure the schema file that the site will need, you can find documentation on [schema.org](https://schema.org/).
 4. **Robots.txt:** In case the site is made in Craft CMS, when making the configuration in SEO plugin the robots will already be working.
@@ -57,9 +57,9 @@ For projects with a previous live site, we require access to those files on the 
 
  1. **Image Optimization:** Make sure that the images are properly optimized for the good performance of the site, that they contain descriptive alts for the user, that they are mostly in webp format, that their measurements are adequate as well as their weight.
  Some tools used in Black Magic for image optimization are:
-	  **1.**  [Image Transform](https://craftcms.com/docs/3.x/image-transforms.html) Craft CMS Tool.
-	  **2.** [Optimize Tool for images](https://www.optimizeimages.com/tool).
-	  **3.** **Lazy Loading:** [Example](https://afarkas.github.io/lazysizes/index.html) and [Documentation Repository](https://github.com/aFarkas/lazysizes).
+     -  **1.**  [Image Transform](https://craftcms.com/docs/3.x/image-transforms.html) Craft CMS Tool.
+	 - **2.** [Optimize Tool for images](https://www.optimizeimages.com/tool).
+	-  **3.** **Lazy Loading:** [Example](https://afarkas.github.io/lazysizes/index.html) and [Documentation Repository](https://github.com/aFarkas/lazysizes).
 	 
  2. **Contact Forms Submissions Testing** (SMTP Info: host, username, password, port, encryption method (tls/ssl)): Access client SMTP accounts for final form configuration.
  3. **Contact Form Captcha:** Generate the Captcha of the form.
@@ -71,18 +71,18 @@ For projects with a previous live site, we require access to those files on the 
 When auditing a page, Lighthouse runs a barrage of tests against the page, and then generates a report on how well the page did. From here you can use the failing tests as indicators on what you can do to improve your app
 
 
-      **1.** [Quick-start guide on using Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es).
-      **2.** View your reports online in [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/) (Extension Tool) or in Developers Tools.
+      - **1.** [Quick-start guide on using Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es).
+     - **2.** View your reports online in [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/) (Extension Tool) or in Developers Tools.
  2.   **Google PageSpeed:** Link to test performance with the google tool, [PageSpeed Insights](https://pagespeed.web.dev/).
  3. **Accessibility Testing:** Test more accurately the accessibility of the page with screen readers and making sure that everything focusable works with the keyboard and Screen Readers.
  4. **Browser Testing:** Making sure that the web page looks good is different types of browsers such as: Google Chrome, Safari, Firefox...
  5. Check for possible **CORS errors**.
  6. **Old Site Backups:** Make a backup of the old site in case there is one.
  7. **Utility Pages:**
-	  **1.** 404.
-	  **2.** Site Down.
-	  **3.** Coming Soon.	
-	  **3.** **Privacy Policy:** Pages that normally go, just make sure they are on the web page.
+	  - **1.** 404.
+	 - **2.** Site Down.
+	 - **3.** Coming Soon.	
+	-  **3.** **Privacy Policy:** Pages that normally go, just make sure they are on the web page.
 8.  **Credits:** "***Site By Black Magic***" Normally we put the credits in the frontend of the footer indicating who made the design and development of the web, when the client does not want it to be seen, we insert an ascci code script so that the credits can be seen in the console.
 9.  **Cookies Banner:** Make sure that the website has a cookie banner.
 10. **CMS Training:** It is the final stretch when the client is taught to use the CMS.
