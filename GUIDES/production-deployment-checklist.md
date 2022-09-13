@@ -18,8 +18,7 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
 ### Environments
  
  1. **Black Magic Staging:** Black Magic always creates a staging environment where we will do the full development and testing of the website.
-    - **1 .** The URL to Black Magic’s staging website is usually <u>[clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)  
-
+    - The URL to Black Magic’s staging website is usually [clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)  
 2. **Client’s Staging:** The client’s staging environment will be used to test domain before release to production. 
 3. **Client’s Production** The client's Production site. ??? 
 4. **Redirects:** Check the old hosted site if it exists, check what would be the corresponding page on the site that will be currently hosted. ??? ---CHANGE SECTION---
@@ -47,23 +46,34 @@ For projects with a previous live site, we require access to those files on the 
 5.  **OpenGraph Image:** This image is configured in the SEO plugin, entering the route:
 `admin/seo/settings` in the field: ***Default Social Image***.
 
- ### Client Final Content
+### Client Final Content
 
- 1. **Favicon:** Add the assets related to the favicon and the configuration so that it can be seen in the frontend.
- 2. **Typography Licensing:** The license of the fonts in case it is necessary.
- 3. CMS + Plugins Licenses + 3rd Party Services Subscriptions/Licenses: The licenses of the plugins in the case of being plugins pags.
+1. **Favicon:** 
+  - Add all optimized **.ico, .png** favicon assets in every recomended sizes for all browsers and devices. This assests can be provided by client, so we just need add files in proyect's directory ```/assets/favicon/```.
+  - If required assets have not been provided, we can generate them with [favicomatic](https://favicomatic.com/) only with an image icon created by us.
+
+2. **Typography:** 
+  - Web Fonts Files
+    - ```.woff .woff2 .ttf .eot``` for ```@font-face```.
+  - Typekit 
+    - Create Web Project in Adobe Fonts, activate OpenType Features checkbox and set ```font-display: swap```. Paste final ```<link rel="stylesheet"...``` code into ```<head>``` or paste kit.css url into ```<script src=" "...``` tag.
+
+4. **Image Optimization:** 
+  - Make sure that the images are properly optimized for the good performance of the site, that they contain descriptive alts for the user, that they are mostly in webp format, that their measurements are adequate as well as their weight.
+  - **Some tools used in Black Magic for image optimization are:**
+    -  **1.**  [Image Transform](https://craftcms.com/docs/3.x/image-transforms.html) Craft CMS Tool.
+	- **2.** [Optimize Tool for images](https://www.optimizeimages.com/tool).
+	-  **3.** **Lazy Loading:** [Example](https://afarkas.github.io/lazysizes/index.html) and [Documentation Repository](https://github.com/aFarkas/lazysizes).
+
+
+5. **CMS + Plugins Licenses + 3rd Party Services Subscriptions/Licenses:**
+  -  Client final licenses for paid plugins or services set with blackmagic test accounts or services in trial period.
 
 ### API Keys
-
- 1. **Image Optimization:** Make sure that the images are properly optimized for the good performance of the site, that they contain descriptive alts for the user, that they are mostly in webp format, that their measurements are adequate as well as their weight.
- Some tools used in Black Magic for image optimization are:
-     -  **1.**  [Image Transform](https://craftcms.com/docs/3.x/image-transforms.html) Craft CMS Tool.
-	 - **2.** [Optimize Tool for images](https://www.optimizeimages.com/tool).
-	-  **3.** **Lazy Loading:** [Example](https://afarkas.github.io/lazysizes/index.html) and [Documentation Repository](https://github.com/aFarkas/lazysizes).
 	 
- 2. **Contact Forms Submissions Testing** (SMTP Info: host, username, password, port, encryption method (tls/ssl)): Access client SMTP accounts for final form configuration.
- 3. **Contact Form Captcha:** Generate the Captcha of the form.
- 4. **Google Analytics Script (+ Reporting):** Make sure the site takes Google Analytics if required.
+ 1. **Contact Forms Submissions Testing** (SMTP Info: host, username, password, port, encryption method (tls/ssl)): Access client SMTP accounts for final form configuration.
+ 2. **Contact Form Captcha:** Generate the Captcha of the form.
+ 3. **Google Analytics Script (+ Reporting):** Make sure the site takes Google Analytics if required.
 
 ### Testing
 
