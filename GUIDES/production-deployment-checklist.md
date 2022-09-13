@@ -8,12 +8,19 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
 2. We don’t launch websites on Fridays.
 
 ### Hosting & Domain Info
- 1. Who is the client’s current **hosting** provider?  
+ 1. Who is the client’s current **hosting** provider?
+	- **1 .**  GoDaddy.
+	- **2 .**  Bluehost.
+	- **3 .**  HostGator.
+	- **4 .** Hostinger.
+	- **5 .** IONOS.
+	- **6 .** Network Solutions...
  2. Who is the client’s current **domain** provider?  
  3. For the new site, is the client moving to a new hosting or domain provider?  
  4. Gather the client’s hosting and domain credentials and save them in LastPass  .
- 5. Access Credentials??? 
-      - **1 .** If Domain and Host Service are not in the same place: DNS Records (or admin account access to generate them)???
+ 5. Access Credentials
+ 6. **Point Domain + DNS Propagation:**
+      - **1 .** If Domain and Host Service are not in the same place: DNS Records (or admin account access to generate them). Point DNS to the new domain
 
 ### Environments
  
@@ -21,7 +28,6 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
     - The URL to Black Magic’s staging website is usually [clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)  
 2. **Client’s Staging:** The client’s staging environment will be used to test domain before release to production. 
 3. **Client’s Production** The client's Production site. ??? 
-4. **Redirects:** Check the old hosted site if it exists, check what would be the corresponding page on the site that will be currently hosted. ??? ---CHANGE SECTION---
 
 ### Security
 
@@ -45,6 +51,7 @@ For projects with a previous live site, we require access to those files on the 
 4. **Robots.txt:** In case the site is made in Craft CMS, when making the configuration in SEO plugin the robots will already be working.
 5.  **OpenGraph Image:** This image is configured in the SEO plugin, entering the route:
 `admin/seo/settings` in the field: ***Default Social Image***.
+4. **Redirects:** Check the old hosted site if it exists, check what would be the corresponding page on the site that will be currently hosted.
 
 ### Client Final Content
 
