@@ -20,29 +20,29 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
 
 1. Who is the client’s current **hosting** provider?
 
--  **1 .** GoDaddy.
+	-  **1 .** GoDaddy.
 
--  **2 .** Bluehost.
+	-  **2 .** Bluehost.
 
--  **3 .** HostGator.
+	-  **3 .** HostGator.
 
--  **4 .** Hostinger.
+	-  **4 .** Hostinger.
 
--  **5 .** IONOS.
+	-  **5 .** IONOS.
 
--  **6 .** Network Solutions...
+	-  **6 .** Network Solutions...
 
 2. Who is the client’s current **domain** provider?
 
 3. For the new site, is the client moving to a new hosting or domain provider?
 
-4. Gather the client’s hosting and domain credentials and save them in LastPass .
+4. Gather the client’s hosting and domain credentials and save them in LastPass.
 
 5. Access Credentials
 
 6.  **Point Domain + DNS Propagation:**
 
--  **1 .** If Domain and Host Service are not in the same place: DNS Records (or admin account access to generate them). Point DNS to the new domain
+	-  **1 .** If Domain and Host Service are not in the same place: DNS Records (or admin account access to generate them). Point DNS to the new domain
 
   
 
@@ -50,7 +50,7 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
 
 1.  **Black Magic Staging:** Black Magic always creates a staging environment where we will do the full development and testing of the website.
 
-- The URL to Black Magic’s staging website is usually [clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)
+	- The URL to Black Magic’s staging website is usually [clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)
 
 2.  **Client’s Staging:** The client’s staging environment will be used to test domain before release to production.
 
@@ -84,11 +84,11 @@ For projects with a previous live site, we require access to those files on the 
 
 1. We normally use plugins from Craft CMS :
 
--  **1 .** [SEOmatic Plugin](https://plugins.craftcms.com/seomatic?craft4).
+	-  **1 .** [SEOmatic Plugin](https://plugins.craftcms.com/seomatic?craft4).
 
--  **2 .** [SEO Plugin](http://craft3.lexington-market.test/admin/plugin-store/seo).
+	-  **2 .** [SEO Plugin](http://craft3.lexington-market.test/admin/plugin-store/seo).
 
--  **3 .** Install **SEO Plugin** and make the corresponding settings (Create an SEO field and in each section where it is necessary to place it in a tab that says SEO).
+	-  **3 .** Install **SEO Plugin** and make the corresponding settings (Create an SEO field and in each section where it is necessary to place it in a tab that says SEO).
 
 2.  **Tags**.
 
@@ -110,35 +110,35 @@ For projects with a previous live site, we require access to those files on the 
 
 1.  **Favicon:**
 
-- Add all optimized **.ico, .png** favicon assets in every recomended sizes for all browsers and devices. This assests can be provided by client, so we just need add files in proyect's directory ```/assets/favicon/```.
+	-  **1 .**  Add all optimized **.icon -- .png** favicon assets in every recomended sizes for all browsers and devices. This assests can be provided by client, so we just need add files in proyect's directory ```/assets/favicon/```.
 
-- If required assets have not been provided, we can generate them with [favicomatic](https://favicomatic.com/) only with an image icon created by us.
+	-  **2 .** If required assets have not been provided, we can generate them with [favicomatic](https://favicomatic.com/) only with an image icon created by us.
 
   
 
 2.  **Typography:**
 
-- Web Fonts Files
+	-  **1.** Web Fonts Files
 
--  ```.woff .woff2 .ttf .eot``` for ```@font-face```.
+	-  **2.**  ```.woff .woff2 .ttf .eot``` for ```@font-face```.
 
-- Typekit
+	-  **3.**  Typekit
 
-- Create Web Project in Adobe Fonts, activate OpenType Features checkbox and set ```font-display: swap```. Paste final ```<link rel="stylesheet"...``` code into ```<head>``` or paste kit.css url into ```<script src=" "...``` tag.
+	-  **4.**  Create Web Project in Adobe Fonts, activate OpenType Features checkbox and set ```font-display: swap```. Paste final ```<link rel="stylesheet"...``` code into ```<head>``` or paste kit.css url into ```<script src=" "...``` tag.
 
   
 
 4.  **Image Optimization:**
 
-- Make sure that the images are properly optimized for the good performance of the site, that they contain descriptive alts for the user, that they are mostly in webp format, that their measurements are adequate as well as their weight.
+Make sure that the images are properly optimized for the good performance of the site, that they contain descriptive alts for the user, that they are mostly in webp format, that their measurements are adequate as well as their weight.
 
 -  **Some tools used in Black Magic for image optimization are:**
 
--  **1.** [Image Transform](https://craftcms.com/docs/3.x/image-transforms.html) Craft CMS Tool.
+	-  **1.** [Image Transform](https://craftcms.com/docs/3.x/image-transforms.html) Craft CMS Tool.
 
--  **2.** [Optimize Tool for images](https://www.optimizeimages.com/tool).
+	-  **2.** [Optimize Tool for images](https://www.optimizeimages.com/tool).
 
--  **3.**  **Lazy Loading:** [Example](https://afarkas.github.io/lazysizes/index.html) and [Documentation Repository](https://github.com/aFarkas/lazysizes).
+	-  **3.**  **Lazy Loading:** [Example](https://afarkas.github.io/lazysizes/index.html) and [Documentation Repository](https://github.com/aFarkas/lazysizes).
 
   
   
@@ -161,13 +161,11 @@ For projects with a previous live site, we require access to those files on the 
 
 ### Testing
 
-1.  **Google Lighthouse Testing:** Lighthouse is an open-source, automated tool for improving the accessibility, performance, quality, and correctness of your web apps.
+1.  **Google Lighthouse Testing:** Lighthouse is an open-source, automated tool for improving the accessibility, performance, quality, and correctness of your web apps.When auditing a page, Lighthouse runs a barrage of tests against the page, and then generates a report on how well the page did. From here you can use the failing tests as indicators on what you can do to improve your app.
 
-When auditing a page, Lighthouse runs a barrage of tests against the page, and then generates a report on how well the page did. From here you can use the failing tests as indicators on what you can do to improve your app
+	- **1.** [Quick-start guide on using Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es).
 
-- **1.** [Quick-start guide on using Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=es).
-
-- **2.** View your reports online in [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/) (Extension Tool) or in Developers Tools.
+	- **2.** View your reports online in [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/) (Extension Tool) or in Developers Tools.
 
 2.  **Google PageSpeed:** Link to test performance with the google tool, [PageSpeed Insights](https://pagespeed.web.dev/).
 
@@ -181,26 +179,26 @@ When auditing a page, Lighthouse runs a barrage of tests against the page, and t
 
 7.  **Utility Pages:**
 
--  **1.** 404.
+	-  **1.** 404.
 
--  **2.** Site Down.
+	-  **2.** Site Down.
 
--  **3.** Coming Soon.
+	-  **3.** Coming Soon.
 
--  **3.**  **Privacy Policy:** Pages that normally go, just make sure they are on the web page.
+8.  **Privacy Policy:** Pages that normally go, just make sure they are on the web page.
 
-8.  **Credits:** "***Site By Black Magic***" Normally we put the credits in the frontend of the footer indicating who made the design and development of the web, when the client does not want it to be seen, we insert an ascci code script so that the credits can be seen in the console.
+9.  **Credits:** "***Site By Black Magic***" Normally we put the credits in the frontend of the footer indicating who made the design and development of the web, when the client does not want it to be seen, we insert an ascci code script so that the credits can be seen in the console.
 
-9.  **Cookies Banner:** Make sure that the website has a cookie banner.
+10.  **Cookies Banner:** Make sure that the website has a cookie banner.
 
-10.  **CMS Training:** It is the final stretch when the client is taught to use the CMS.
+11.  **CMS Training:** It is the final stretch when the client is taught to use the CMS.
 
-11.  **Sign-off Document:** It is practically the contract that the client is made to sign.
+12.  **Sign-off Document:** It is practically the contract that the client is made to sign.
 
   
 
 ### Deliver Info
-1. **Deliver Credentials**.
+-1.  Deliver Credentials.
 
   
 
