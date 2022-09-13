@@ -27,7 +27,7 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
  1. **Black Magic Staging:** Black Magic always creates a staging environment where we will do the full development and testing of the website.
     - The URL to Black Magic’s staging website is usually [clientname.heyblackmagic.com](http://clientname.heyblackmagic.com/)  
 2. **Client’s Staging:** The client’s staging environment will be used to test domain before release to production. 
-3. **Client’s Production** The client's Production site. ??? 
+3. **Client’s Production** The client's Production site.
 
 ### Security
 
@@ -107,6 +107,6 @@ When auditing a page, Lighthouse runs a barrage of tests against the page, and t
 
 ### Deliver Info
 
-1. **Deliver Credentials**.
+      - 1. **Deliver Credentials**.
 
 [Return](../README.md)
