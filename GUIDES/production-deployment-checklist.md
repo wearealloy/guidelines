@@ -116,7 +116,7 @@ Here’s a comprehensive list of tasks that we carry out before launching a webs
 
   
 
-2.  **Sherlock Security:** Once the site is in production install Sherlock Security Plugin [Sherlock Security Plugin](about:blank).
+2.  **Sherlock Security:** Once the site is in production install [Sherlock Security Plugin](https://plugins.craftcms.com/sherlock?craft4).
 
   
 
