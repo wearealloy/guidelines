@@ -50,7 +50,7 @@
 Navigation
 - [Sidenav Menu](SNIPPETS/NAVIGATION/sidenav-menu.md)
 - [Peek Sticky Nav](SNIPPETS/NAVIGATION/peek-sticky-nav.md)
-- [Nav Change on Scroll](SNIPPETS/NAVIGATION/nav-change-on-scroll)
+- [Nav Change on Scroll](SNIPPETS/NAVIGATION/nav-change-on-scroll.md)
 
 Buttons
 - [Scroll top](SNIPPETS/BUTTONS/scroll-top.md)
