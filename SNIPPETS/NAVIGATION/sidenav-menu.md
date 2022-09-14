@@ -1,4 +1,4 @@
- ## Sidenav Menu ☱
+ # Sidenav Menu ☱
 
 Responsive Menu Navigation, for sites that keep the main side menu options always visible on desktop, vertical responsive submenu options, in this snnippet we transform the sidebar to a top navigation menu bar on mobile, with the search option at top bar menu mobile and outside the sidebar, in main content top.
 
