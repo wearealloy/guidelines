@@ -20,7 +20,7 @@ import { menuNavigation  } from  "menu-navigation";
 ```	
 
  The following code sample may help you as a guide how you could make your JS code accessible:
- 1. [Example JavaScript](SNIPPETS/NAVIGATION/nav-change-on-scroll-js.md)
+ 1. [Example JavaScript](./nav-change-on-scroll-js.md)
 
 #### HTML Structure
 
@@ -65,5 +65,4 @@ import { menuNavigation  } from  "menu-navigation";
             </div>
         </div>
     </header>
-    ```
 
