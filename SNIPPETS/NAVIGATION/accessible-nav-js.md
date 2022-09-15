@@ -1,5 +1,7 @@
 
-With the ```getDevice(``` function we can know in what type of device the web page is watched
+# Javascript Example
+
+With the ```getDevice(``` function we can get the curren device type. 📱 💻 🖥 
 
 ```js
 const getDevice = () => {
@@ -23,7 +25,7 @@ const getDevice = () => {
 
 ```
 
-With the magic code of this function ```menuNavigation()```, we made the accessibility works!
+Using this magic code, we can make the accessibility works! 🪄
 
 ```js
 const menuNavigation = () => {
@@ -94,3 +96,5 @@ const menuNavigation = () => {
 }
 
 ```
+
+[Return to Accessible Nav](accessible-nav.md)
