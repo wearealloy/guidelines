@@ -32,21 +32,21 @@
 ### Code Snippets
 
 Navigation
-- [Sidenav Menu](/SNIPPETS/sidenav-menu.md)
-- [Peek Sticky Nav]()
-- [Nav Change on Scroll]()
+- [Sidenav Menu](SNIPPETS/NAVIGATION/sidenav-menu.md)
+- [Peek Sticky Nav](SNIPPETS/NAVIGATION/peek-sticky-nav.md)
+- [Nav Change on Scroll](SNIPPETS/NAVIGATION/nav-change-on-scroll.md)
 
 Buttons
-- [Scroll top]()
-- [States Animations]()
-- [Cursor Pointer]()
-- [Play Pause]()
+- [Scroll top](SNIPPETS/BUTTONS/scroll-top.md)
+- [States Animations](SNIPPETS/BUTTONS/states-animation.md)
+- [Cursor Pointer](SNIPPETS/BUTTONS/cursor-pointer.md)
+- [Play Pause](SNIPPETS/BUTTONS/play-pause.md)
 
 Box Model
-- [JS Equilizer]()
-- [Accordions]()
-- [Collapsible]()
-- [Tabs]()
+- [JS Equilizer](SNIPPETS/BOX-MODEL/js-equalizer.md)
+- [Accordions](SNIPPETS/BOX-MODEL/accordions.md)
+- [Collapsible](SNIPPETS/BOX-MODEL/Collapsible.md)
+- [Tabs](SNIPPETS/BOX-MODEL/tabs.md)
 
 Animations
 - [Animate]()
@@ -54,12 +54,10 @@ Animations
 - [Base Slider](https://splidejs.com)
 
 Forms
-- [Newsletter]()
-- [Email Base Layout](https://github.com/DianyelaMaldonado/email-base-layout)
+- [Newsletter](SNIPPETS/FORMS/newsletter.md)
+- [Email Base Layout FreeForm](https://github.com/DianyelaMaldonado/email-base-layout-freeform)
 
 Content
-- [Cookies Banner]()
-- [Copy Right BM]()
-- [Footer Credits]()
-
-
+- [Cookies Banner](SNIPPETS/CONTENT/cookies-banner.md)
+- [Copy Right BM](SNIPPETS/CONTENT/copy-right-bm.md)
+- [Footer Credits](SNIPPETS/CONTENT/footer-credits.md)
