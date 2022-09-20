@@ -8,11 +8,13 @@ If you’re working on craft CMS, this can used for develop a vertical menu with
 ### Usage:
 
 
-The HTML structure is composed by thismain elements: 
+The HTML structure is composed by these main elements: 
 
 ``` <header> ```  is the main navigation content  ```.top-nav```  containing contains menu navigation and search triggers for mobile version only and the website logo for both versions. ``` <main> ``` element containing the page main content and top search input for desktop version. The ```<nav>```  or  ```.main-nav``` element, contains the main navigation items in  ```.menu-content``` and submenu content items for horizontal expand in desktop and on top of all the content for mobile version.
 
-Import function:
+#### Javascript
+
+#### Import function:
 
 ``` js/components/sidenav.js```
 
@@ -36,7 +38,7 @@ window.addEventListener('resize', () => {
 	sidenNavMenu();
 })
 ```
-Get Styles ```/main.scss```:
+#### Get Styles ```/main.scss```:
 
 You can change the variables without any problem but the general styles of the main elements are important to control the structure and its behavior when the breakpoint changes
 
@@ -47,9 +49,7 @@ html {
 	main    { }
 }
 ```
-HTML Structure
-
-
+#### HTML Structure
 
 
 ```html
@@ -79,11 +79,11 @@ HTML Structure
 ```
 
 
-** Example: **
+**Example:**
 
 <table>
   <tr>
-	<th align="center">📱 This is the Resul on Mobile</th>
+	<th align="center">📱 This is the Result on Mobile</th>
 	<th align="center">🖥 This is Result on Desktop</th>
   </tr>
   <tr>
@@ -97,3 +97,5 @@ HTML Structure
 ### How it works: ⚙⚙⚙
 
 The ```nav.main-nav``` element has the key content. This element adapts according to the class that you add to ```<header>``` via js. Whether it's ```.sidenav``` or ```.mobilenav```, the content of the lists ```.primary-nav``` and ```.submenu-nav``` is styled according to the class of that parent. 
+
+[Return to Black Magic Development Guidelines](../../README.md)
