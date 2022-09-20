@@ -51,4 +51,4 @@ const getDocumentHeight = () => {
 export { buttonScrollTop }
 ```
 
-[Return to Scroll Top](SNIPPETS/BUTTONS/scroll-top.md)
+[Return to Scroll Top](scroll-top.md)

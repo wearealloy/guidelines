@@ -20,7 +20,7 @@ Import function:
 
 The following code sample may help you as a guide how you could make your JS code:
 
-1. [JavaScript Example](SNIPPETS/BUTTONS/scroll-top-js.md)
+1. [JavaScript Example](scroll-top-js.md)
 
   
 #### Get Styles ```/main.scss;```
@@ -47,12 +47,12 @@ The following code sample may help you as a guide how you could make your JS cod
 	<a  href="#main-header">
 		<span  class="sr-only">Jump to top of page</span>
 		<svg aria-hidden="true"
-			 focusable="false"
-			 class="progress-circle svg-content"
-			 width="100%"
-			 height="100%"
-			 viewBox="-1 -1 102 102">
-			 <path  d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+			focusable="false"
+			class="progress-circle svg-content"
+			width="100%"
+			height="100%"
+			viewBox="-1 -1 102 102">
+			<path  d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
 		</svg>
 	</a>
 </div>
