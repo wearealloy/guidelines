@@ -58,6 +58,20 @@ The following code sample may help you as a guide how you could make your JS cod
 </div>
 ```
 
+
+**Example:**
+
+<table>
+  <tr>
+    <th align="center">📱 This is the Result on Mobile</th>
+	<th align="center">🖥  This is the Result on Desktop</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://imgur.com/hGJAhim.jpg" height="250" alt="Accessible Nav Mobile"></td>
+	<td align="center"><img src="https://imgur.com/I3B8rE6.jpg" height="250" alt="Development Accessible Nav Desktop"></td>
+  </tr>
+</table>
+
   
  
 [Return to Black Magic Development Guidelines](../../README.md)
