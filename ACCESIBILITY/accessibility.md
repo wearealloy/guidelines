@@ -16,7 +16,7 @@
   - Audio and Video Control (Play and pause)
   - Content on Hover or Focus
 
-## Accessibility Resources
+## Accessibility Testing Tools
   - Manual Test
   - Web evaluation tools
     - [tawdis](https://www.tawdis.net)
